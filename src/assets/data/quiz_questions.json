@@ -1,0 +1,33 @@
+{
+    "title": "Buzz-Feed Questionário: Super-herói ou vilão?",
+    "questions":[
+        {
+            "id": 1,
+            "question": "Qual super poder você escolheria?",
+            "options":[
+                {"id": 1, "name": "Raios-Lasers", "alias": "A"},
+                {"id": 2, "name": "Voar", "alias": "B"},
+                {"id": 3, "name": "Superforça", "alias": "A"},
+                {"id": 4, "name":"Curar feridas", "alias":"B"},
+                {"id": 5, "name": "Soltar fogo pelas mãos", "alias":"A"}
+    
+            ]
+        },
+        {
+            "id":2,
+            "question": "Quem você salvaria primeiro ?",
+            "options":[
+                {"id": 1, "name": "Não salvaria as crianças", "alias": "B"},
+                {"id": 2, "name": "Não salvaria Idosos", "alias": "A"},
+                {"id": 3, "name": "Quem não estivesse machucado", "alias": "B"},
+                {"id": 4, "name": "Depende da quantidade de pessoas", "alias": "A"},
+                {"id": 5, "name": "Quem estiver em situação mais difícil, independente da idiade", "alias": "A"}
+            ]
+        }
+    ],
+
+    "results":{
+        "A": "Você seria um super vilão",
+        "B": "Você seria um super herói"
+    }
+}

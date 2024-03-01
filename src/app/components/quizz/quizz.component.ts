@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import  quiz_questions from "../../../assets/data/quiz_questions.json"
+import  quiz_questions from "../../../assets/data/quiz_questions.json";
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-quizz',
   templateUrl: './quizz.component.html',
@@ -18,7 +20,11 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false;
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  navigateToHome() {
+    this.router.navigate(['/']);
+  }
 
   ngOnInit(): void {
 

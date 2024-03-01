@@ -1,32 +1,93 @@
 {
     "title": "Buzz-Feed Questionário: Super-herói ou vilão?",
-    "questions":[
+    "questions": [
         {
             "id": 1,
             "question": "Qual super poder você escolheria?",
-            "options":[
+            "options": [
                 {"id": 1, "name": "Raios-Lasers", "alias": "A"},
                 {"id": 2, "name": "Voar", "alias": "B"},
                 {"id": 3, "name": "Superforça", "alias": "A"},
-                {"id": 4, "name":"Curar feridas", "alias":"B"},
-                {"id": 5, "name": "Soltar fogo pelas mãos", "alias":"A"}
-    
+                {"id": 4, "name": "Curar feridas", "alias": "B"},
+                {"id": 5, "name": "Soltar fogo pelas mãos", "alias": "A"}
             ]
         },
         {
-            "id":2,
-            "question": "Quem você salvaria primeiro ?",
-            "options":[
+            "id": 2,
+            "question": "Quem você salvaria primeiro?",
+            "options": [
                 {"id": 1, "name": "Não salvaria as crianças", "alias": "B"},
                 {"id": 2, "name": "Não salvaria Idosos", "alias": "A"},
                 {"id": 3, "name": "Quem não estivesse machucado", "alias": "B"},
                 {"id": 4, "name": "Depende da quantidade de pessoas", "alias": "A"},
-                {"id": 5, "name": "Quem estiver em situação mais difícil, independente da idiade", "alias": "A"}
+                {"id": 5, "name": "Quem estiver em situação mais difícil, independentemente da idade", "alias": "A"}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Você sacrificaria a si mesmo para salvar outros?",
+            "options": [
+                {"id": 1, "name": "Sim, sem hesitar", "alias": "A"},
+                {"id": 2, "name": "Depende da situação", "alias": "B"},
+                {"id": 3, "name": "Não, minha vida é mais importante", "alias": "A"}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Você acredita que o fim justifica os meios?",
+            "options": [
+                {"id": 1, "name": "Sim, se o resultado for positivo", "alias": "A"},
+                {"id": 2, "name": "Não, os meios devem ser éticos independentemente do resultado", "alias": "B"},
+                {"id": 3, "name": "Depende da situação", "alias": "A"}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Você perdoaria um inimigo arrependido?",
+            "options": [
+                {"id": 1, "name": "Sim, todos merecem uma segunda chance", "alias": "B"},
+                {"id": 2, "name": "Não, as ações passadas não podem ser esquecidas", "alias": "A"},
+                {"id": 3, "name": "Depende da sinceridade do arrependimento", "alias": "B"}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Você revelaria sua identidade secreta para proteger seus entes queridos?",
+            "options": [
+                {"id": 1, "name": "Sim, a verdade é mais importante", "alias": "A"},
+                {"id": 2, "name": "Não, para proteger aqueles que amo", "alias": "B"},
+                {"id": 3, "name": "Depende da situação", "alias": "A"}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Você aceitaria um suborno para usar seus poderes em benefício próprio?",
+            "options": [
+                {"id": 1, "name": "Sim, se o benefício for significativo", "alias": "A"},
+                {"id": 2, "name": "Não, meus poderes não estão à venda", "alias": "B"},
+                {"id": 3, "name": "Depende da situação", "alias": "A"}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Você confrontaria um colega super-herói se achasse que estão agindo de maneira errada?",
+            "options": [
+                {"id": 1, "name": "Sim, a ética é mais importante", "alias": "B"},
+                {"id": 2, "name": "Não, cada um tem seu próprio caminho", "alias": "A"},
+                {"id": 3, "name": "Depende da gravidade da situação", "alias": "B"}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Você usaria seus poderes para influenciar eventos políticos?",
+            "options": [
+                {"id": 1, "name": "Sim, para promover mudanças positivas", "alias": "A"},
+                {"id": 2, "name": "Não, a política deve seguir seu curso natural", "alias": "B"},
+                {"id": 3, "name": "Depende da situação", "alias": "A"}
             ]
         }
     ],
-
-    "results":{
+    "results": {
         "A": "Você seria um super vilão",
         "B": "Você seria um super herói"
     }

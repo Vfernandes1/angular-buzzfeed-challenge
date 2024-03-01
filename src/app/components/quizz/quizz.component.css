@@ -75,3 +75,17 @@
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.quiz-back-button{
+    border-radius: 8px;
+    margin-top: 60px;
+    border: 4px black;
+    width: 175px;
+    height: fit-content;
+}
+
+.quiz-back-button > P{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}

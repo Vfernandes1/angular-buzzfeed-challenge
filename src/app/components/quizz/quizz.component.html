@@ -19,5 +19,9 @@
         <p style="font-size: 35px;">
             {{selectedAnswer}}
         </p>
+        <button class="quiz-back-button" (click)="navigateToHome()" [routerLink]="['/']">
+           <p> Voltar para Home
+           </p> 
+        </button>
     </div>
 </div>
